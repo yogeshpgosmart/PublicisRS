@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicisRS.Test", "PublicisRS.Test\PublicisRS.Test.csproj", "{3A9E9C50-3301-4180-9490-0ADE564187F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicisRS", "PublicisRS\PublicisRS.csproj", "{31329810-E56B-4D08-8158-B7589E630CE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3A9E9C50-3301-4180-9490-0ADE564187F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9E9C50-3301-4180-9490-0ADE564187F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A9E9C50-3301-4180-9490-0ADE564187F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31329810-E56B-4D08-8158-B7589E630CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31329810-E56B-4D08-8158-B7589E630CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31329810-E56B-4D08-8158-B7589E630CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31329810-E56B-4D08-8158-B7589E630CE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
