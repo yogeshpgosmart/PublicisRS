@@ -10,19 +10,46 @@ namespace PublicisRS
     {
         public string Publicis(int number)
         {
-            return "";
+            if (number % 3 == 0)
+            {
+
+                return "Publicis";
+
+            }
+            else
+            {
+                return "NotPass";
+            }
         }
         public string ROar(int number)
         {
-            return "";
+            if (number % 5 == 0)
+            {
+
+                return "rOar";
+            }
+            else
+            {
+                return "NotPass";
+            }
         }
         public string PublicisrOar(int number)
         {
-            return "";
+            if (number % 3 == 0 && number % 5 == 0)
+            {
+
+                return "PublicisrOar";
+
+            }
+            else
+            {
+                return "NotPass";
+            }
         }
+
         public string PrintNumber(int number)
         {
-            return "";
+            return number.ToString();
         }
     }
 }
